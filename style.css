@@ -250,6 +250,7 @@ header.sticky{
         border-radius: 6px;
         width: 200px;
      }
+    
      .navlist li{
         font-size: 16px;
         margin-bottom: 12px;
@@ -304,6 +305,9 @@ header.sticky{
       height: auto;
       width: 100%;
      }
+     .ellipse img, .ellipse2 img, .ellipse3 img{
+        width: 200px;
+     }
      .home-img img{
         max-width: 400px;
      }
@@ -312,9 +316,15 @@ header.sticky{
      }
      .services{
         grid-template-columns: 1fr;
-        margin-right: auto;
-        margin-left: auto;
 
+     }
+     .box{
+       
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .contact h1{
+        font-size: 24px;
      }
 
  }
